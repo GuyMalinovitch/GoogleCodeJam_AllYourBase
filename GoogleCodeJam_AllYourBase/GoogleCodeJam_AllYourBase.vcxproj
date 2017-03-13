@@ -118,6 +118,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main.cc" />
+    <ClCompile Include="Printer.cc" />
+    <ClCompile Include="Solve.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Printer.hh" />
+    <ClInclude Include="Solve.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
